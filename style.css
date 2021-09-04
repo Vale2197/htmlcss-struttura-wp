@@ -40,11 +40,12 @@ main #bloccoImmagine {
 /* BLOCCO A COLONNE */
 #bloccoColonne {
     background-color: #0086FF;
+    padding-bottom: 1rem;
 } 
 
 /* TITOLO */
 .debug #bloccoColonne .title {
-    height: 87px;
+    height: 80px;
 }
 
 #bloccoColonne .title {
@@ -80,3 +81,15 @@ main #bloccoImmagine {
     margin-right: 10px;
 }
 /*  / MAINCONTENT */
+/* / BLOCCO A COLONNE */
+
+/* FOOTER */
+.debug footer {
+    height: 80px;
+}
+
+footer {
+    background-color: #8801FE;
+    margin-top: 0.5rem;
+}
+/* / FOOTER */
