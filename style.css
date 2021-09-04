@@ -54,15 +54,29 @@ main #bloccoImmagine {
 /* / TITOLO */
 
 /* SIDEBAR LEFT*/
-.debug #bloccoColonne .sidebarLeft {
+.debug #bloccoColonne .sidebarLeft, .debug #bloccoColonne .sidebarRight {
     height: 300px;
 }
 
-#bloccoColonne .sidebarLeft {
+#bloccoColonne .sidebarLeft, #bloccoColonne .sidebarRight {
     background-color: #ABCFE7;
-    width: 25%;
+    width: calc(25% - 10px);
     float: left;
     margin-top: 1rem;
 }
 /* / SIDEBAR LEFT*/
 
+/* MAINCONTENT */
+.debug #bloccoColonne .mainContent {
+    height: 300px;
+}
+
+#bloccoColonne .mainContent {
+    background-color: #ABCFE7;
+    float: left;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*  / MAINCONTENT */
