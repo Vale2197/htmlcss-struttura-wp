@@ -4,9 +4,37 @@
     padding: 0;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+#mainContainer {
+    margin: auto;
+    width: 75%;
+}
+
+/*  style header */
+.debug header {
+    height: 80px;
+}
+
+header {
+    background-color: #E579E6;
+}
+/*  / style header */
+
+/* sezione IMMAGINE */
+.debug main #bloccoImmagine {
+    height: 349px;
+}
+
+main #bloccoImmagine {
+    background-color: #E1D67A;
+    width: 100%;
+    margin-top: 1rem;
+}
+/* / sezione IMMAGINE */
+
 
