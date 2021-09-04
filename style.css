@@ -37,4 +37,32 @@ main #bloccoImmagine {
 }
 /* / sezione IMMAGINE */
 
+/* BLOCCO A COLONNE */
+#bloccoColonne {
+    background-color: #0086FF;
+} 
+
+/* TITOLO */
+.debug #bloccoColonne .title {
+    height: 87px;
+}
+
+#bloccoColonne .title {
+    background-color: #ABCFE7;
+    margin-top: 1rem;
+}
+/* / TITOLO */
+
+/* SIDEBAR LEFT*/
+.debug #bloccoColonne .sidebarLeft {
+    height: 300px;
+}
+
+#bloccoColonne .sidebarLeft {
+    background-color: #ABCFE7;
+    width: 25%;
+    float: left;
+    margin-top: 1rem;
+}
+/* / SIDEBAR LEFT*/
 
